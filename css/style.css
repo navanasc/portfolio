@@ -126,9 +126,6 @@ button{
 
 .dark-block{
   background-color: #2b2c3c;
-  display: grid;
-  grid-template-rows: 3;
-  grid-template-columns: 4;
   margin-left: auto;
   margin-right: auto;
 }
