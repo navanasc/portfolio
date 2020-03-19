@@ -1,0 +1,75 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.JPG"/>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>About - Brightfruit</title>
+  </head>
+  <body>
+    <a class = "skip" href="#contact-title">Skip to Main Content</a>
+    <header>
+      <img src="images/cropped_text_logo.png" alt="brightfruit-text-logo" id = "text-logo">
+      <nav>
+        <ul class="nav_links">
+          <li class="nav_item"><a href="home.html">Home</a></li>
+          <li class="nav_item"><a href="programs.html">Our Programs</a></li>
+          <li class="nav_item"><a href="about.html">About Us</a></li>
+          <li class="nav_item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <div class="page-title" id="contact-title">
+        <h1>Send Us a Message!</h1>
+        <p>If you're interested in our services, summer program, partnership, or just want to talk, we want to hear from you! Send us a message with the form below.</p>
+      </div>
+
+      <div class="form" id="contact-form">
+        <form action="https://formspree.io/mvoqrloo" method="POST">
+          <fieldset>
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name">
+            
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name">
+            
+            <br/>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+
+            <br/>
+
+            <label for="interest">Interest in Brightfruit</label>
+
+            <br/>
+
+            <input type="checkbox" id="interest1" name="interest" value="in-school">
+            <label for="interest1">In-School Programs</label><br/>
+            
+            <input type="checkbox" id="interest2" name="interest" value="summer-workshop">
+            <label for="interest2">Summer Workshop Enrollment</label><br/>
+            
+            <input type="checkbox" id="interest3" name="interest" value="partnerships">
+            <label for="interest3">Partnerships</label><br/>
+            <input type="checkbox" id="interest4" name="interest" value="other">
+            <label for="interest4">Other</label><br/><br/>
+            
+            <label for="comments">Comments</label><br/><br/>
+            <input type="textarea" id="comments" name="comments" value="Type your comments and notes here..."><br/><br/>
+
+            <input type="submit" value="Submit">
+
+          </fieldset>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>Brightfruit<br/>
+      &copy; Navanas Chetsandtikhun 2020-2021</p>
+    </footer>
+  </body>
+</html>
