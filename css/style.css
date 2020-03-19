@@ -36,6 +36,10 @@ a{
   color: #2b2c3c;
 }
 
+.inline{
+  display: inline;
+}
+
 a.skip{
   background: white;
   left: 0;
